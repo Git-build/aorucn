@@ -1,33 +1,32 @@
-@charset "utf-8";
-/* ç®€å•æµåª’ä½“
-   æ³¨æ„: æµåª’ä½“è¦æ±‚æ‚¨åˆ é™¤ HTML ä¸­åª’ä½“çš„é«˜åº¦å’Œå®½åº¦å±æ€§
+@charset "gb2312";
+/* ¼òµ¥Á÷Ã½Ìå
+   ×¢Òâ: Á÷Ã½ÌåÒªÇóÄúÉ¾³ı HTML ÖĞÃ½ÌåµÄ¸ß¶ÈºÍ¿í¶ÈÊôĞÔ
    http://www.alistapart.com/articles/fluid-images/ 
 */
 img, object, embed, video {
 	max-width: 100%;
-	text-align: center;
 }
-/* IE 6 ä¸æ”¯æŒæœ€å¤§å®½åº¦ï¼Œå› æ­¤é»˜è®¤ä¸º 100% å®½åº¦ */
+/* IE 6 ²»Ö§³Ö×î´ó¿í¶È£¬Òò´ËÄ¬ÈÏÎª 100% ¿í¶È */
 .ie6 img {
 	width:100%;
 }
 
 /*
-	Dreamweaver æµä½“ç½‘æ ¼å±æ€§
+	Dreamweaver Á÷ÌåÍø¸ñÊôĞÔ
 	----------------------------------
 	dw-num-cols-mobile:		5;
 	dw-num-cols-tablet:		8;
 	dw-num-cols-desktop:	10;
 	dw-gutter-percentage:	25;
 	
-	çµæ„Ÿæ¥è‡ªäº Ethan Marcotte çš„â€œå…·æœ‰å“åº”çš„ Web è®¾è®¡â€ 
+	Áé¸ĞÀ´×ÔÓÚ Ethan Marcotte µÄ¡°¾ßÓĞÏìÓ¦µÄ Web Éè¼Æ¡± 
 	http://www.alistapart.com/articles/responsive-web-design
 	
-	å’Œ Joni Korpi çš„â€œé»„é‡‘ç½‘æ ¼ç³»ç»Ÿâ€
+	ºÍ Joni Korpi µÄ¡°»Æ½ğÍø¸ñÏµÍ³¡±
 	http://goldengridsystem.com/
 */
 
-/* ç§»åŠ¨è®¾å¤‡å¸ƒå±€: 480px åŠæ›´ä½ã€‚ */
+/* ÒÆ¶¯Éè±¸²¼¾Ö: 480px ¼°¸üµÍ¡£ */
 
 .gridContainer {
 	margin-left: auto;
@@ -42,12 +41,10 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	font-size: 36px;
 }
 
-/* å¹³æ¿ç”µè„‘å¸ƒå±€: 481px è‡³ 768pxã€‚æ ·å¼ç»§æ‰¿è‡ª: ç§»åŠ¨è®¾å¤‡å¸ƒå±€ã€‚ */
+/* Æ½°åµçÄÔ²¼¾Ö: 481px ÖÁ 768px¡£ÑùÊ½¼Ì³Ğ×Ô: ÒÆ¶¯Éè±¸²¼¾Ö¡£ */
 
 @media only screen and (min-width: 481px) {
 .gridContainer {
@@ -64,7 +61,7 @@ img, object, embed, video {
 }
 }
 
-/* æ¡Œé¢ç”µè„‘å¸ƒå±€: 769px è‡³æœ€é«˜ 1232pxã€‚æ ·å¼ç»§æ‰¿è‡ª: ç§»åŠ¨è®¾å¤‡å¸ƒå±€å’Œå¹³æ¿ç”µè„‘å¸ƒå±€ã€‚ */
+/* ×ÀÃæµçÄÔ²¼¾Ö: 769px ÖÁ×î¸ß 1232px¡£ÑùÊ½¼Ì³Ğ×Ô: ÒÆ¶¯Éè±¸²¼¾ÖºÍÆ½°åµçÄÔ²¼¾Ö¡£ */
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
