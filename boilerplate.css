@@ -275,6 +275,27 @@ td { vertical-align: top; }
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
+  p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+	color: #000;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  h2, h3 {
+	page-break-after: avoid;
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+}
+}
+.gridContainer.clearfix #LayoutDiv1 h5 {
+	font-weight: bold;
+	text-align: right;
+}
+p {
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
 }
