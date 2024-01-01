@@ -298,4 +298,13 @@ p {
 	font-size: 18px;
 	text-align: center;
 	font-weight: normal;
+	bottom: 1px;
+	clip: rect(auto,auto,1px,auto);
+	left: auto;
+	top: auto;
+	right: auto;
+}
+.gridContainer.clearfix #LayoutDiv1 #footer {
+	font-size: 20px;
+	font-weight: normal;
 }
